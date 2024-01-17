@@ -2005,8 +2005,8 @@ a:focus {
     background: #FFD662;
     box-shadow: 1px 1px 4px #745500;
 }
-.whats-fix{position: fixed;left: 100px;}
-.phone-fix{position: fixed;right: 100px;}
+.whats-fix{position: fixed;left: 100px;z-index: 9999999;}
+.phone-fix{position: fixed;right: 100px;z-index: 9999999;}
 .phone-fix:hover, .whats-fix:hover{
     color: #fff;
     background: #00539c;
